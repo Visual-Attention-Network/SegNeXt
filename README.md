@@ -1,4 +1,4 @@
-# SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation (NIPS 2022)
+# SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation (NeurIPS 2022)
 
 The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/).
 
