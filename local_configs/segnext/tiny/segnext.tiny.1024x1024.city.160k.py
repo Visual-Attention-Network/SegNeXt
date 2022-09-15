@@ -31,7 +31,7 @@ model = dict(
     test_cfg=dict(mode='slide', crop_size=(1024, 1024), stride=(768, 768)))
 
 # data
-data = dict(samples_per_gpu=2)
+data = dict(samples_per_gpu=4)
 evaluation = dict(interval=8000, metric='mIoU')
 checkpoint_config = dict(by_epoch=False, interval=8000)
 # optimizer

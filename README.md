@@ -2,7 +2,7 @@
 
 The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/).
 
-The code is based on [MMSegmentaion 0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
+The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
 
 
 ## Citation
@@ -24,8 +24,17 @@ The code is based on [MMSegmentaion 0.24.1](https://github.com/open-mmlab/mmsegm
 |  SegNeXt  |     MSCAN-B  | IN-1K  | 160K |  48.5/49.9 | 28M | 35G | [config](local_configs/segnext/base/segnext.base.512x512.ade.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/1ea8000916284493810b/?dl=1) |
 |  SegNeXt  |     MSCAN-L  | IN-1K  | 160K |  51.0/52.1 | 49M | 70G | [config](local_configs/segnext/large/segnext.large.512x512.ade.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/d4f8e1020643414fbf7f/?dl=1) |
 
+### Cityscapes
 
-**Notes**: In this scheme, The number of FLOPs (G) is calculated on the input size of 512 $\times$ 512 for ADE20K by [torchprofile](https://github.com/zhijian-liu/torchprofile) (recommended, highly accurate and automatic MACs/FLOPs statistics).
+|   Method  |    Backbone     |  Pretrained | Iters | mIoU(ss/ms) | Params | FLOPs  | Config | Download  |
+| :-------: | :-------------: | :-----: | :---: | :--: | :----: | :----: | :----: | :-------: |
+|  SegNeXt  |     MSCAN-T  | IN-1K | 160K | 79.8/81.4 | 4M | 56G | [config](local_configs/segnext/tiny/segnext.tiny.1024x1024.city.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/b1613af9955849bba910/?dl=1) |
+|  SegNeXt  |     MSCAN-S | IN-1K  | 160K |  81.3/82.7  | 14M | 125G | [config](local_configs/segnext/small/segnext.small.1024x1024.city.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/14148cf5371a4f248db1/?dl=1) |
+|  SegNeXt  |     MSCAN-B  | IN-1K  | 160K |  82.6/83.8 | 28M | 276G | [config](local_configs/segnext/base/segnext.base.1024x1024.city.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/adb49029f66f426bb046/?dl=1) |
+|  SegNeXt  |     MSCAN-L  | IN-1K  | 160K |  83.2/83.9 | 49M | 578G | [config](local_configs/segnext/large/segnext.large.1024x1024.city.160k.py)  | [TsingHua Cloud](https://cloud.tsinghua.edu.cn/f/b5308d092b034f81aac0/?dl=1) |
+
+
+**Notes**: In this scheme, The number of FLOPs (G) is calculated on the input size of 512 $\times$ 512 for ADE20K, 2048 $\times$ 1024 for Cityscapes by [torchprofile](https://github.com/zhijian-liu/torchprofile) (recommended, highly accurate and automatic MACs/FLOPs statistics).
 
 ## Installation
 Install MMSegmentation and download ADE20K according to the guidelines in [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/blob/v0.24.1/docs/en/get_started.md#installation).
@@ -63,7 +72,7 @@ pip install torchprofile
 To calculate FLOPs for a model, run:
 
 ```bash
-bash tools/get_flops.py /path/to/checkpoint_file --shape 512 512
+bash tools/get_flops.py /path/to/config --shape 512 512
 ```
 
 
