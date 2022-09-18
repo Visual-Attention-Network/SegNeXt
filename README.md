@@ -14,7 +14,7 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ## Results
 
-**Notes**: Pre-trained models can be found in [TsingHua Cloud](https://cloud.tsinghua.edu.cn/d/c15b25a6745946618462/).
+**Notes**: ImageNet Pre-trained models can be found in [TsingHua Cloud](https://cloud.tsinghua.edu.cn/d/c15b25a6745946618462/).
 
 ### ADE20K
 
