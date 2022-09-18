@@ -1,6 +1,8 @@
 # SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation (NeurIPS 2022)
 
-The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/). 
+![](resources/flops.png)
+
+The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](resources/paper.pdf). 
 
 The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
 
