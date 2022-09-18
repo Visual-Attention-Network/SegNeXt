@@ -1,4 +1,6 @@
 # SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation (NeurIPS 2022)
+## Meng-Hao Guo, Cheng-Ze Lu, Qibin Hou, Zheng-Ning Liu, Ming-Ming Cheng and Shi-Min Hu. 
+
 
 The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/).
 
