@@ -1,14 +1,12 @@
 # SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation (NeurIPS 2022)
 
-### Meng-Hao Guo, Cheng-Ze Lu, Qibin Hou, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu. 
-
-
-The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/).
+The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](https://arxiv.org/abs/). 
 
 The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
 
 
 ## Citation
+If you find our repo useful for your research, please consider citing our paper:
 
 ```bib
 
@@ -78,6 +76,8 @@ To calculate FLOPs for a model, run:
 bash tools/get_flops.py /path/to/config --shape 512 512
 ```
 
+## Contact
+If you have any question, please feel free to contact me via gmh20@mails.tsinghua.edu.cn.
 
 ## Acknowledgment
 
