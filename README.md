@@ -4,6 +4,8 @@
 
 The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](). 
 
+For Jittor user, https://github.com/Jittor/JSeg is a jittor version. 
+
 The paper is in [Here](https://arxiv.org/pdf/2209.08575.pdf).
 
 The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
