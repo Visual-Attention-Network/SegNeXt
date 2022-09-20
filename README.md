@@ -4,7 +4,7 @@
 
 The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](). 
 
-The paper is in [**Temp Link**](resources/paper.pdf).
+The paper is in [Here](https://arxiv.org/pdf/2209.08575.pdf).
 
 The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
 
@@ -12,7 +12,7 @@ The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmseg
 ## Citation
 If you find our repo useful for your research, please consider citing our paper:
 
-```bib
+```
 
 ```
 
