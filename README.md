@@ -53,7 +53,8 @@ Install MMSegmentation and download ADE20K according to the guidelines in [MMSeg
 
 ```
 pip install timm
-cd SegNeXt && python -m pip setup.py develop
+cd SegNeXt
+python setup.py develop
 ```
 
 ## Training
