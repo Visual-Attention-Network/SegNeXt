@@ -48,7 +48,7 @@ If you find our repo useful for your research, please consider citing our paper:
 
 
 ## Installation
-Install MMSegmentation and download ADE20K according to the guidelines in [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/blob/v0.24.1/docs/en/get_started.md#installation).
+Install the dependencies and download ADE20K according to the guidelines in [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/blob/v0.24.1/docs/en/get_started.md#installation).
 
 
 ```
