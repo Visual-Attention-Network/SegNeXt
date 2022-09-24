@@ -15,7 +15,12 @@ The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmseg
 If you find our repo useful for your research, please consider citing our paper:
 
 ```
-
+@article{guo2022segnext,
+  title={SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation},
+  author={Guo, Meng-Hao and Lu, Cheng-Ze and Hou, Qibin and Liu, Zhengning and Cheng, Ming-Ming and Hu, Shi-Min},
+  journal={arXiv preprint arXiv:2209.08575},
+  year={2022}
+}
 ```
 
 ## Results
