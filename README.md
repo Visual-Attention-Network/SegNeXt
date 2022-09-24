@@ -21,6 +21,15 @@ If you find our repo useful for your research, please consider citing our paper:
   journal={arXiv preprint arXiv:2209.08575},
   year={2022}
 }
+
+
+@article{guo2022visual,
+  title={Visual Attention Network},
+  author={Guo, Meng-Hao and Lu, Cheng-Ze and Liu, Zheng-Ning and Cheng, Ming-Ming and Hu, Shi-Min},
+  journal={arXiv preprint arXiv:2202.09741},
+  year={2022}
+}
+
 ```
 
 ## Results
