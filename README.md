@@ -2,7 +2,7 @@
 
 ![](resources/flops.png)
 
-The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for [**SegNext**](). 
+The repository contains official Pytorch implementations of training and evaluation codes and pre-trained models for **SegNext**. 
 
 For Jittor user, https://github.com/Jittor/JSeg is a jittor version. 
 
