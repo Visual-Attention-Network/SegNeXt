@@ -30,6 +30,15 @@ If you find our repo useful for your research, please consider citing our paper:
   year={2022}
 }
 
+
+@inproceedings{
+    ham,
+    title={Is Attention Better Than Matrix Decomposition?},
+    author={Zhengyang Geng and Meng-Hao Guo and Hongxu Chen and Xia Li and Ke Wei and Zhouchen Lin},
+    booktitle={International Conference on Learning Representations},
+    year={2021},
+}
+
 ```
 
 ## Results
