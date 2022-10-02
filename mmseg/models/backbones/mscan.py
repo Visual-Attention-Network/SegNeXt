@@ -2,12 +2,12 @@ import torch
 import torch.nn as nn
 import math
 import warnings
-from timm.models.layers import DropPath
 from torch.nn.modules.utils import _pair as to_2tuple
 from mmseg.models.builder import BACKBONES
 
 from mmcv.cnn import build_norm_layer
 from mmcv.runner import BaseModule
+from mmcv.cnn.bricks import DropPath
 from mmcv.cnn.utils.weight_init import (constant_init, normal_init,
                                         trunc_normal_init)
 
