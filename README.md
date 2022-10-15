@@ -111,7 +111,8 @@ bash tools/get_flops.py /path/to/config --shape 512 512
 ```
 
 ## Contact
-If you have any question, please feel free to contact me via gmh20@mails.tsinghua.edu.cn.
+If you have any private question, please feel free to contact me via gmh20@mails.tsinghua.edu.cn.
+For technical problem, please create an issue.
 
 ## Acknowledgment
 
